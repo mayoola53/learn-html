@@ -31,8 +31,10 @@ This is a `highlight` for individual words / blocks of text
 we can also <span style="text-decoration: underline";> underline </span> text 
 
 
+
 ### Code Highliting 
-```
+
+```java
 int x = 1
 ```
 	this is tabbed in once
