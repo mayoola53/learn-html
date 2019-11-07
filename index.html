@@ -22,12 +22,15 @@
 	<p>sample web page</p>
 	<script>
 	var thisIsAGloobalVariable =22;
+	var myArray = [];
 	alert('this is a page ');
 	function runThisSometimes(){
 			//alert('run this sometimes')
 			thisIsAGloobalVariable +=10;
 			console.log(thisIsAGloobalVariable);
 			document.getElementById('putssomedatahere').innerText = thisIsAGloobalVariable;
+			myArray.push(thisIsAGloobalVariable);
+			console.log(myArray);
 	}
     console.log(thisIsAGloobalVariable)
 	</script>
