@@ -24,10 +24,10 @@
 	var thisIsAGloobalVariable =22;
 	alert('this is a page ');
 	function runThisSometimes(){
-			alert('run this sometimes')
+			//alert('run this sometimes')
 			thisIsAGloobalVariable +=10;
-			console.log(thisIsAGloobalVariable)
-
+			console.log(thisIsAGloobalVariable);
+			document.getElementById('putssomedatahere').innerText = thisIsAGloobalVariable;
 	}
     console.log(thisIsAGloobalVariable)
 	</script>
@@ -44,7 +44,7 @@
 			<li>item 2</li>
             <li>item 3</li>
 		</ol>
-
+    <div id = "putssomedatahere"> some data goes here </div>
 
 
 </body>
