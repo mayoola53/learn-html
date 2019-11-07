@@ -32,11 +32,16 @@
 			myArray.push(thisIsAGloobalVariable);
 			console.log(myArray);
 	}
+
+	function popFromArray() {
+		// body...
+		myArray.pop();
+		console.log(myArray);
+	}
     console.log(thisIsAGloobalVariable)
 	</script>
-	<button onclick="runThisSometimes()">Run this sometimes
-
-	</button>
+	<button onclick="runThisSometimes()">Run this sometimes</button>
+	<button onclick = "popFromArray()">pop from array</button>
 		<ul>
 			<li>item 1</li>
 			<li>item 2</li>
